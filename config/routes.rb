@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'user' => 'users#user'
   get 'user/new' => 'users#new'
   get 'listing' => 'listing#listing'
+  get 'booking' => 'booking#booking'
   resource :users
   resource :listings
 end
